@@ -1,0 +1,18 @@
+:root{
+    --cinza_33: #333333;
+    --cinza_33_op: #333333e8;
+    --branco_ff: #FFFFFF;
+    --laranja_f9: #F9963B;
+    --preto_op: #000000cc;
+    --cinza_33_op_75: #333333bf;
+}
+
+
+
+.upper{
+    text-transform: uppercase;
+}
+
+.pointer{
+    cursor: pointer;
+}
