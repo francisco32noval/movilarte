@@ -70,6 +70,19 @@ body{
 
 /* CAROUSEL */
 
-.carousel{
-    height: 5vw;
+.carousel img{
+    height: 40vw;
+}
+
+
+
+/* MAIN */
+
+
+.hr_main{
+    border: none;
+    border-top: 3px solid #F9963B;
+    opacity: 1;
+    margin: auto;
+    width: 5rem;
 }
