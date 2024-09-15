@@ -43,7 +43,7 @@ body{
 .dropdown-menu{
     width: 100%;
     border: 0px solid white;
-    background-color: rgb(249, 150, 59);
+    background-color: rgba(0, 0, 0, 0.8);
     transform: translate(3px, 5px);
     border-radius: 0px;
 }
@@ -58,7 +58,18 @@ body{
     margin: 5% auto;
 }
 
-.dropdown-item:hover{
+.dropdown-item{
     color: white;
-    background-color: var(--laranja_f9);
+}
+
+.dropdown-item:hover{
+    color: var(--laranja_f9);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* CAROUSEL */
+
+.carousel{
+    height: 5vw;
 }
