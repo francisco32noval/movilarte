@@ -97,3 +97,13 @@ body{
     margin: auto;
     width: 5rem;
 }
+
+
+
+.quem_somos{
+    background-color: rgb(251, 251, 251);
+}
+
+.quem_somos > div:nth-child(2){
+    font-size: 0.8rem;
+}
