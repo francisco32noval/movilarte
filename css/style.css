@@ -76,15 +76,6 @@ body{
 }
 
 
-.fade {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-  
-.fade .active {
-    display: block;
-    opacity: 1;
-}
 
 
 /* MAIN */
@@ -106,4 +97,37 @@ body{
 
 .quem_somos > div:nth-child(2){
     font-size: 0.8rem;
+}
+
+
+
+
+/* FOOTER */
+
+
+.contactos{
+    height: 500px;
+    background-image: url('../uploads/capa2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.contactos > div:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* .contactos > div > div:nth-child(2){
+
+} */
+
+
+
+.icon{
+    width: 12%;
+    border: 3px solid white;
+    padding: 0.6vw;
+    border-radius: 50%;
 }
