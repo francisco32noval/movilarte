@@ -16,3 +16,9 @@
 .pointer{
     cursor: pointer;
 }
+
+
+#mail{
+    text-decoration: none;
+    color: white;
+}

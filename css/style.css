@@ -119,8 +119,8 @@ body{
 }
 
 
-/* .contactos > div > div:nth-child(2){
-
+/* .contactos > div > div *{
+    border: 1px solid red;
 } */
 
 
