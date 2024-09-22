@@ -18,7 +18,13 @@
 }
 
 
-#mail{
+.decoration_link{
     text-decoration: none;
     color: white;
+}
+
+#hr_footer{
+    border: none;
+    border-top: 2px solid white;
+    opacity: 1;
 }

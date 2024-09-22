@@ -131,3 +131,28 @@ body{
     padding: 0.6vw;
     border-radius: 50%;
 }
+
+
+.facebook{
+    height: 400px;
+    background-image: url('../uploads/capa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.facebook > div{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* .facebook > div > div *{
+    border: 1px solid red;
+} */
+
+.fb_icon{
+    width: 6%;
+    border: 3px solid white;
+    padding: 0.6vw;
+    border-radius: 50%;
+}
