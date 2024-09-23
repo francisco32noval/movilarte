@@ -1,0 +1,6 @@
+@media all and (width < 992px) {
+    .navbar-nav .nav-link:hover::after, .navbar-nav .nav-link::after{
+        transform: scaleX(0) !important;
+    }
+    
+}

@@ -12,6 +12,7 @@ body{
 
 .navbar-nav > li{
     padding: 0vw 1.2vw;
+    font-size: 0.8rem;
 }
 
 .show {
@@ -134,7 +135,7 @@ body{
 
 
 .facebook{
-    height: 400px;
+    height: 350px;
     background-image: url('../uploads/capa.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -155,4 +156,13 @@ body{
     border: 3px solid white;
     padding: 0.6vw;
     border-radius: 50%;
+}
+
+
+.nav_footer a{
+    text-decoration: none;
+}
+
+.nav_footer a:hover{
+    color: var(--laranja) !important;
 }
