@@ -106,12 +106,13 @@ body{
 
 
 .contactos{
-    height: 40vw;
+    height: 30vw;
     background-image: url('../uploads/capa2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-size: 1.2rem;
 }
 
 .contactos > div:nth-child(1){
@@ -134,12 +135,13 @@ body{
 
 
 .facebook{
-    height: 350px;
+    height: 25vw;
     background-image: url('../uploads/capa.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-size: 1.2rem;
 }
 
 .facebook > div{
