@@ -5,8 +5,25 @@
         transform: scaleX(0) !important;
     }
 
+    .navbar-nav{
+        text-align: end;
+    }
+
+    .dropdown-menu{
+        padding: 0px 10px;
+    }
+
+    .dropdown-divider{
+        margin: 2px auto;
+        color: black !important;
+    }
+
+    .logo{
+        width: 20vh !important;
+    }
+
     .carousel img{
-        height: 30vh;
+        height: 35vh;
     }
 
 
