@@ -113,15 +113,33 @@ body{
     transform: translateX(0); /* Traz o elemento para o centro */
 }
 
+
+.fade_in{
+    opacity: 0;
+    transition: opacity 3s ease-in;
+}
+
+.fade_in.get{
+    opacity: 1;
+}
+
+
+.fade_in a{
+    text-decoration: none;
+    color: white;
+}
+
+#salas{
+    background-image: url('../uploads/sala_1.jpg');
+}
+
+
 /* FOOTER */
 
 
 .contactos{
     height: 30vw;
     background-image: url('../uploads/capa2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
     font-size: 1.2rem;
 }
@@ -148,9 +166,6 @@ body{
 .facebook{
     height: 25vw;
     background-image: url('../uploads/capa.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
     font-size: 1.2rem;
 }

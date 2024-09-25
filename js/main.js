@@ -37,5 +37,21 @@ function handleScroll() {
     }
 }
 
+
 // Adiciona o evento de scroll
 window.addEventListener('scroll', handleScroll);
+
+
+
+function getFadeIn(){
+    const fade = document.querySelector('.fade_in')
+    if (isElementInViewport(fade)) {
+        fade.classList.add('get');
+    }
+    else{
+        fade.classList.remove('get');
+    }
+}
+
+window.addEventListener('scroll', getFadeIn)
+
