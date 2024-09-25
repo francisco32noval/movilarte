@@ -101,6 +101,17 @@ body{
 
 
 
+.slide_in {
+    opacity: 0;
+    transform: translateX(-100%); /* Move o elemento para fora da tela à esquerda */
+    transition: transform 1s ease-out, opacity 1s ease-out; /* Controla a animação */
+}
+
+/* Quando o elemento estiver visível, ele desliza para o centro */
+.slide_in.visible {
+    opacity: 1;
+    transform: translateX(0); /* Traz o elemento para o centro */
+}
 
 /* FOOTER */
 
