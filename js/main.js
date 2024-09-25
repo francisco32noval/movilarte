@@ -15,14 +15,14 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// Função para verificar se o elemento está visível
+
+
+// Função para verificar se o elemento está parcialmente visível
 function isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
     return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        rect.top < window.innerHeight && 
+        rect.bottom >= 0
     );
 }
 
@@ -30,7 +30,10 @@ function isElementInViewport(el) {
 function handleScroll() {
     const element = document.querySelector('.slide_in');
     if (isElementInViewport(element)) {
-        element.classList.add('visible'); // Adiciona a classe visible quando o elemento está no viewport
+        element.classList.add('visible'); // Adiciona a classe quando o elemento está visível
+    }
+    else {
+        element.classList.remove('visible');  // Remove a classe quando o elemento sai do viewport
     }
 }
 
