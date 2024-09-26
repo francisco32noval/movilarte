@@ -133,6 +133,26 @@ body{
     background-image: url('../uploads/sala_1.jpg');
 }
 
+#sofas{
+    background-image: url('../uploads/sofa.jpg');
+}
+
+#decoracao{
+    background-image: url('../uploads/decoracao.jpg');
+}
+
+#quartos{
+    background-image: url('../uploads/quarto.jpg');
+}
+
+#diversos{
+    background-image: url('../uploads/diversos.jpg');
+}
+
+#moveis_tv{
+    background-image: url('../uploads/moveis_tv.jpg');
+}
+
 
 /* FOOTER */
 
