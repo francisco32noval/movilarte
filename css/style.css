@@ -7,6 +7,7 @@ body{
 /* NAVBAR */
 
 .nav{
+    width: 100%;
     position: fixed;
     top: 0px;
     z-index: 10;
@@ -132,27 +133,27 @@ body{
     color: white;
 }
 
-#salas{
+.salas{
     background-image: url('../uploads/sala_1.jpg');
 }
 
-#sofas{
+.sofas{
     background-image: url('../uploads/sofa.jpg');
 }
 
-#decoracao{
+.decoracao{
     background-image: url('../uploads/decoracao.jpg');
 }
 
-#quartos{
+.quartos{
     background-image: url('../uploads/quarto.jpg');
 }
 
-#diversos{
+.diversos{
     background-image: url('../uploads/diversos.jpg');
 }
 
-#moveis_tv{
+.moveis_tv{
     background-image: url('../uploads/moveis_tv.jpg');
 }
 
