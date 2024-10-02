@@ -56,26 +56,26 @@
                                         artigos loja
                                     </a>
                                     <ul role="menu" class="dropdown-menu text-center">
-                                        <li><a class="dropdown-item upper pointer" href="#">salas</a></li>
+                                        <li><a class="dropdown-item upper pointer" href="salas.php">salas</a></li>
                                         <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item upper pointer" href="#">sofás</a></li>
+                                        <li><a class="dropdown-item upper pointer" href="sofas.php">sofás</a></li>
                                         <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item upper pointer" href="#">decoração</a></li>
+                                        <li><a class="dropdown-item upper pointer" href="decoracao.php">decoração</a></li>
                                         <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item upper pointer" href="#">moveis de tv</a></li>
+                                        <li><a class="dropdown-item upper pointer" href="moveis_tv.php">moveis de tv</a></li>
                                         <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item upper pointer" href="#">diversos</a></li>
+                                        <li><a class="dropdown-item upper pointer" href="diversos.php">diversos</a></li>
                                         <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item upper pointer" href="#">quartos</a></li>
+                                        <li><a class="dropdown-item upper pointer" href="quartos.php">quartos</a></li>
                                     </ul>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link upper pointer font_nav">produtos por medida</a>
+                                    <a class="nav-link upper pointer font_nav" href="#">produtos por medida</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link upper pointer font_nav">contactos</a>
+                                    <a class="nav-link upper pointer font_nav" href="contactos.php">contactos</a>
                                 </li>
 
                             </ul>
