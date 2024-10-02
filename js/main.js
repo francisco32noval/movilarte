@@ -55,3 +55,35 @@ function getFadeIn(){
 
 window.addEventListener('scroll', getFadeIn)
 
+
+
+
+
+// Main ARTIGOS LOJA
+// Obtém os elementos
+var modal = document.getElementById("modal");
+var imagemAmpliada = document.getElementById("imagemAmpliada");
+var close = document.getElementsByClassName("close")[0];
+
+// Obtém todas as miniaturas
+var imagensMiniatura = document.getElementsByClassName("imagemMiniatura");
+
+// Itera sobre todas as miniaturas e adiciona o comportamento de clique
+for (var i = 0; i < imagensMiniatura.length; i++) {
+    imagensMiniatura[i].onclick = function() {
+        modal.style.display = "flex";
+        imagemAmpliada.src = this.src;
+    }
+}
+
+// Quando o utilizador clica no 'X', o modal é fechado
+close.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Fechar o modal ao clicar fora da imagem
+modal.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
