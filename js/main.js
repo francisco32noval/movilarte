@@ -72,6 +72,7 @@ var imagensMiniatura = document.getElementsByClassName("imagemMiniatura");
 for (var i = 0; i < imagensMiniatura.length; i++) {
     imagensMiniatura[i].onclick = function() {
         modal.style.display = "flex";
+        modal.style.flexDirection = "column" 
         imagemAmpliada.src = this.src;
     }
 }
