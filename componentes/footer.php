@@ -23,7 +23,7 @@
                         <div class="pb-3"><img class="icon" src="uploads/phone.png" alt="phone"></div>
 
                         <div>
-                            00351 916931193
+                            <?= $contactos["telefone"]; ?>
                         </div>
 
                     </div>
@@ -33,9 +33,7 @@
                         <div class="pb-3"><img class="icon" src="uploads/location-2.png" alt="local"></div>
 
                         <div>
-                            Rua de Valfrades nº 56
-                            <br>
-                            4820 - 791 Travassós Fafe
+                            <?= $contactos["morada"]; ?>
                         </div>
 
                     </div>
@@ -45,7 +43,7 @@
                         <div class="pb-3"><img class="icon" src="uploads/mail.png" alt="local"></div>
 
                         <div>
-                            <a class="decoration_link" href="mailto:geral@movilarte.pt">geral@movilarte.pt</a>
+                            <a class="decoration_link" href="mailto:geral@movilarte.pt"><?= $contactos["email"]; ?></a>
                         </div>
 
                     </div>
@@ -82,11 +80,11 @@
                     <div class="col-12 mx-0 px-0"></div>
 
                         <div class="pb-3 text-center">
-                            <a href="https://www.facebook.com/movilarteempresa.movilarte" target="_blank"><img class="fb_icon" src="uploads/facebook.png" alt="facebook"></a>
+                            <a href="<?= $contactos["link_facebook"]; ?>" target="_blank"><img class="fb_icon" src="uploads/facebook.png" alt="facebook"></a>
                         </div>
 
                         <div class="text-center fs-4">
-                            <a class="decoration_link" href="https://www.facebook.com/movilarteempresa.movilarte" target="_blank">Siga-nos no Facebook</a>
+                            <a class="decoration_link" href="<?= $contactos["link_facebook"]; ?>" target="_blank">Siga-nos no Facebook</a>
                         </div>
 
                     </div>

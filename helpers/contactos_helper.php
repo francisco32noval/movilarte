@@ -3,7 +3,7 @@
 
 function getContactos(){
 
-    $resultado = selectSQL("SELECT * FROM contactos");
+    $resultado = selectSQLUnico("SELECT * FROM contactos");
 
     return $resultado;
 }

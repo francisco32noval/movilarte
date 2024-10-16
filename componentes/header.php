@@ -1,3 +1,12 @@
+<?php
+
+$carousel = getCarousel();
+$contactos = getContactos();
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -98,18 +107,16 @@
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="uploads/capa.jpg" class="d-block w-100" alt="capa">
-                        </div>
+                        <?php foreach($carousel as $i => $c): ?>
 
-                        <div class="carousel-item" data-bs-interval="3000">
-                            <img src="uploads/capa1.jpg" class="d-block w-100" alt="capa1">
-                        </div>
+                            <div class="carousel-item <?= ($i==0) ? "active" : ""; ?>" data-bs-interval="3000">
+                                <img src="<?= $c["img_carousel"]; ?>" class="d-block w-100" alt="capa">
+                            </div>
+                        
+                        <?php endforeach; ?>
 
-                        <div class="carousel-item" data-bs-interval="3000">
-                            <img src="uploads/capa2.png" class="d-block w-100" alt="capa2">
-                        </div>
                     </div>
+
                 </div>
 
             </div>
