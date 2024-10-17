@@ -24,9 +24,33 @@
                 <img src="uploads/sala_1.jpg" alt="Miniatura 3" class="imagemMiniatura w-100" style="cursor: pointer;">
 
                 <!-- Modal para exibir a imagem em plano principal -->
-                <div id="modal" class="modal">
+                <div id="modal" class="modal mt-3">
                     <span class="close">&times;</span>
-                    <img class="modal-content" id="imagemAmpliada">
+                    
+
+                    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="modal-content" id="imagemAmpliada">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="uploads/sofa.jpg" class="d-block" alt="sala">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="uploads/sala_1.jpg" class="d-block" alt="sala">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
                     <p class="text-white mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi neque odit mollitia, quidem a dolorum.</p>
                 </div>
 
