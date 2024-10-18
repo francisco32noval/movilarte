@@ -82,6 +82,8 @@ body{
 
 
 
+
+
 /* MAIN */
 
 
@@ -161,7 +163,6 @@ body{
 
 
 
-/* MAIN SOFAS */
 
 .modal {
     display: none; /* Escondido por padrão */
@@ -177,13 +178,12 @@ body{
 }
 
 .modal-content {
-    max-width: 65%;
     max-height: 65%;
 }
 
 .close {
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 10%;
     color: white;
     font-size: 3rem;
@@ -191,6 +191,10 @@ body{
     cursor: pointer;
 }
 
+
+.img_modal{
+    width: 100%;
+}
 
 
 
