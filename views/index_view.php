@@ -1,4 +1,8 @@
+<?php
 
+$quem_somos = getHome();
+
+?>
     
 
     <main class="container my-5">
@@ -16,11 +20,7 @@
             <h5 class="col-12 col-lg-3 upper d-flex justify-content-center align-items-center">quem somos</h5>
 
             <div class="col-12 col-lg-9">
-                A MOVILARTE surgiu no mercado em 2009.
-                Vitor Mendes é um empresário de 45 anos de idade , com uma vasta experiência neste ramo, envolvido nesta arte desde que nasceu. Ele dá continuidade ao negócio da família.
-                É uma empresa de fabrico e comércio de todos os estilos de móveis, cozinhas por medida e artigos de decoração, com exposição aberta ao público em Travassós Fafe.
-                Aposta na qualidade da matéria prima, desde o abate de madeiras, tratamento, transformação, polimentos e fabrico até ao produto final, para que este seja de qualidade superior, dando garantia dos seus produtos.
-                É uma empresa com ideias inovadoras adaptando sempre que possivel as peças de mobiliário aos seus gostos ou á sua área de implementação.
+                <?= $quem_somos["quem_somos"]; ?>
             </div>
         </div>
 
