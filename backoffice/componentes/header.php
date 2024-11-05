@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="back_css/style.css">
 
 
+    <!-- EDITOR DE TEXTO -->
+    <script src="https://cdn.tiny.cloud/1/9ljc7z16k4furqkx7hw5zcy7mx224ozfflzvyih4q96tk95y/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+
 </head>
 <body>
     
