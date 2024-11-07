@@ -5,9 +5,13 @@ $home = getHome();
 $form = isset($_GET["quem_somos"]);
 if($form){
     $quem_somos = $_GET["quem_somos"];
-    iduSQL("UPDATE home SET quem_somos='$quem_somos'");
+    
+    iduSQL("UPDATE home SET quem_somos = '$quem_somos'");
+
+
     header("Location: home.php");
 }
+
 
 ?>
 

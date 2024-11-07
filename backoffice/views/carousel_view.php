@@ -30,7 +30,7 @@ $carousel = getCarousel();
                             </td>
 
                             <td>
-                                <button><a href="carousel_editar.php?id=<?= $c["id"]; ?>">Editar</a></button>
+                                <button class="my-4"><a href="carousel_editar.php?id=<?= $c["id"]; ?>">Editar</a></button>
                                 <button><a href="carousel_apagar.php?id=<?= $c["id"]; ?>">Apagar</a></button>
                             </td>
                         </tr>
