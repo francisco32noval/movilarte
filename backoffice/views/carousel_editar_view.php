@@ -25,16 +25,17 @@ if($form){
 ?>
 
     
-
-
+    
     <script type="text/javascript">
         $(document).ready(function() {
             $('#elfinder').elfinder({
-                url : '/backoffice/elfinder/php/connector.php', // URL para o conector PHP
-                lang: 'pt' 
+                url : '/elfinder/php/connector.minimal.php',  // Caminho para o script PHP de conexão
+                lang: 'pt_BR' // Definir o idioma para português (opcional)
             });
         });
     </script>
+
+    
 
     <main class="container">
 
@@ -57,7 +58,7 @@ if($form){
                 <input type="text" name="img_carousel" required class="w-50" value="<?= $ce["img_carousel"] ?>">
                 <br><br>
 
-                <a class="gestor" target="_blank" href="<?= $url_base; ?>/backoffice/elfinder/php/connector.php">
+                <a class="gestor" target="_blank" href="<?= $url_base; ?>backoffice/elfinder/php/connector.minimal.php">
                     Gestor de Ficheiros
                 </a>
 
