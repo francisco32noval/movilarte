@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Ficheiros</title>
+    <link rel="stylesheet" href="elfinder/css/elfinder.min.css">
+    <script src="elfinder/js/jquery.min.js"></script>
+    <script src="elfinder/js/elfinder.min.js"></script>
+</head>
+<body>
+    <h1>Gestor de Ficheiros</h1>
+    <div id="elfinder"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#elfinder').elfinder({
+                url : 'elfinder/php/connector.minimal.php', // Caminho para o conector PHP
+                lang: 'pt_BR' // Idioma (opcional)
+            });
+        });
+    </script>
+</body>
+</html>

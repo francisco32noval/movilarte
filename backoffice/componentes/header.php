@@ -18,14 +18,6 @@
     <script src="https://cdn.tiny.cloud/1/9ljc7z16k4furqkx7hw5zcy7mx224ozfflzvyih4q96tk95y/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 
 
-     <!-- CSS do elFinder -->
-     <link rel="stylesheet" type="text/css" href="/elfinder/css/elfinder.min.css">
-    <link rel="stylesheet" type="text/css" href="/elfinder/css/theme.css">
-
-    <!-- jQuery (necessário para o elFinder) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- JS do elFinder -->
-    <script src="/elfinder/js/elfinder.min.js"></script>
 
 
 </head>
