@@ -25,23 +25,16 @@ if($form){
 ?>
 
     
-    
-
-    
-
-    
 
     <main class="container">
 
-        <div id="elfinder"></div>
-
         <div class="row">
-            <h1 class="text-center col-12">
+            <h1 class="text-center col-12 mt-5">
                 Carousel - Editar
             </h1>
         </div>
 
-        <div class="row mt-5">
+        <div class="row mt-5 text-center">
 
             <form class="col-12">
                 <input type="hidden" name="id" value="<?= $id; ?>">
@@ -49,12 +42,11 @@ if($form){
                 <br>
 
                 <label for="img_carousel">Imagem</label>
-                <input type="text" name="img_carousel" required class="w-50" value="<?= $ce["img_carousel"] ?>">
+                <br>
+                <input type="file" required class="mt-3" name="img_carousel" id="img_carousel">
                 <br><br>
 
-                <a class="gestor" target="_blank" href="<?= $url_base; ?>backoffice/elfinder.html">
-                    Gestor de Ficheiros
-                </a>
+                
 
 
                 <br><br>
