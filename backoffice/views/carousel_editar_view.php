@@ -43,7 +43,9 @@ if($form){
 
                 <label for="img_carousel">Imagem</label>
                 <br>
-                <input type="file" required class="mt-3" name="img_carousel" id="img_carousel">
+                <a class="gestor" target="_blank" href="<?= $url_base; ?>backoffice/tinyfilemanager/tinyfilemanager.php">
+                    Gestor de Ficheiros
+                </a>
                 <br><br>
 
                 

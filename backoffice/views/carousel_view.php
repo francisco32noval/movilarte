@@ -2,6 +2,8 @@
 
 $carousel = getCarousel();
 
+
+
 ?>
 
 
@@ -9,6 +11,8 @@ $carousel = getCarousel();
         <div class="row">
             <h1 class="col text-center">Carousel</h1>
         </div>
+
+        
 
 
         <div class="row">
