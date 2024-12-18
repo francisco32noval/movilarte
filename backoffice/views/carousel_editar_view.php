@@ -42,8 +42,11 @@ if($form){
                 <br>
 
                 <label for="img_carousel">Imagem</label>
+                <input class="estilo_botao" type="text" name="img_carousel" id="img_carousel" required style="width: 50%;" value="<?= $ce["img_carousel"]; ?>">
                 <br>
-                <a class="gestor" target="_blank" href="<?= $url_base; ?>backoffice/tinyfilemanager/tinyfilemanager.php">
+                <img class="imgAEditar" src="<?= $ce["img_carousel"]; ?>" alt="<?= $ce["id"]; ?>">
+                <br>
+                <a class="estilo_botao" target="_blank" href="<?= $url_base; ?>backoffice/tinyfilemanager/tinyfilemanager.php">
                     Gestor de Ficheiros
                 </a>
                 <br><br>
@@ -53,7 +56,7 @@ if($form){
 
                 <br><br>
 
-                <input type="submit" value="Editar">
+                <input class="estilo_botao" type="submit" value="Editar">
             </form>
 
         </div>
