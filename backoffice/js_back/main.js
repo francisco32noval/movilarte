@@ -23,4 +23,3 @@ document.getElementById("confirmar").addEventListener("click", () => {
         window.location.href = `${urlParaExcluir}?id=${idParaExcluir}`;
     }
 });
-

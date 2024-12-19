@@ -28,7 +28,7 @@ $quartos = getQuartos();
 
                 <div class="col-12 col-sm-6 col-lg-4 my-2">
 
-                    <img src="uploads/sala_1.jpg" alt="Miniatura 3" class="imagemMiniatura w-100" style="cursor: pointer;">
+                    <img src="<?= $q["imagem"]; ?>" alt="Miniatura 3" class="imagemMiniatura w-100" style="cursor: pointer;">
 
                     <!-- Modal para exibir a imagem em plano principal -->
                     <div id="modal" class="modal mt-5">
@@ -38,13 +38,13 @@ $quartos = getQuartos();
                         <div id="carouselE" class="carousel slide w-75" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="modal-content img_modal" id="imagemAmpliada">
+                                    <img class="modal-content img_modal" id="imagemAmpliada" src="<?= $q["especifica_1"]; ?>">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="uploads/sofa.jpg" class="d-block img_modal" alt="sala">
+                                    <img src="<?= $q["especifica_2"]; ?>" class="d-block img_modal" alt="sala">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="uploads/sala_1.jpg" class="d-block img_modal" alt="sala">
+                                    <img src="<?= $q["especifica_3"]; ?>" class="d-block img_modal" alt="sala">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
@@ -58,7 +58,7 @@ $quartos = getQuartos();
                         </div>
 
 
-                        <p class="text-white mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi neque odit mollitia, quidem a dolorum.</p>
+                        <p class="text-white mt-2"><?= $q["descricao"]; ?></p>
                     </div>
 
                 </div>

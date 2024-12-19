@@ -10,12 +10,12 @@ if($form){
     $especifica_3 = $_GET["especifica_3"];
     $descricao = $_GET["descricao"];
 
-    iduSQL("INSERT into salas
+    iduSQL("INSERT into quartos
         (imagem, especifica_1, especifica_2, especifica_3, descricao)
         value ('$imagem', '$especifica_1', '$especifica_2', '$especifica_3', '$descricao')
     ");
 
-    header("Location: salas.php");
+    header("Location: quartos.php");
 }
 
 
@@ -28,12 +28,11 @@ if($form){
         });
     </script>
 
-
     <main class="container">
 
         <div class="row">
             <h1 class="text-center col-12 mt-5">
-                Salas - Novo
+                Quartos - Novo
             </h1>
         </div>
 

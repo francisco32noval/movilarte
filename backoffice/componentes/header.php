@@ -63,7 +63,7 @@
                             <a class="nav-link" href="#">Decoração</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quartos</a>
+                            <a class="nav-link" href="quartos.php">Quartos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contactos</a>
