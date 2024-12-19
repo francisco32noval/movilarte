@@ -1,9 +1,11 @@
 let modal = document.getElementById("modal");
 let idParaExcluir = null;
+let urlParaExcluir = null;
 
 // Função para abrir o modal e salvar o ID
-function remover(id) {
+function remover(id, url) {
     idParaExcluir = id;
+    urlParaExcluir = url;
     modal.style.display = "block";
     document.body.classList.add("modal-open");
 }
@@ -14,10 +16,11 @@ function fecharModal() {
     document.body.classList.remove("modal-open"); 
 }
 
+
 // Confirma a exclusão e redireciona para o PHP
 document.getElementById("confirmar").addEventListener("click", () => {
-    if (idParaExcluir) {
-        window.location.href = `carousel_apagar.php?id=${idParaExcluir}`;
+    if (idParaExcluir, urlParaExcluir) {
+        window.location.href = `${urlParaExcluir}?id=${idParaExcluir}`;
     }
 });
 

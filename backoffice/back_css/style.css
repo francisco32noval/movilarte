@@ -48,6 +48,6 @@ a:hover{
 }
 
 body.modal-open {
-    background-color: rgb(0, 0, 0, 0.7); /* Preto */
-    transition: background-color 0.3s ease; /* Transição suave */
+    background-color: rgb(0, 0, 0, 0.7); 
+    transition: background-color 0.3s ease;
 }

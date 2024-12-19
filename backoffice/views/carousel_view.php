@@ -37,7 +37,7 @@ $carousel = getCarousel();
 
                             <td>
                                 <button class="my-4 estilo_botao"><a href="carousel_editar.php?id=<?= $c["id"]; ?>">Editar</a></button>
-                                <button onclick="remover(<?= $c['id']; ?>)" class="estilo_botao">Apagar</button>
+                                <button onclick="remover(<?= $c['id']; ?>, 'carousel_apagar.php')" class="estilo_botao">Apagar</button>
                                 <div id="modal" class="modal">
                                     <div class="modal-content">
                                         <p>Tem certeza que deseja apagar este item?</p>
