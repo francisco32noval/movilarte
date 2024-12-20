@@ -45,7 +45,7 @@ if($form){
                 <!-- IMAGEM PRINCIPAL -->
                 <label for="imagem">Imagem Principal</label>
                 <br>
-                <input class="estilo_botao" type="text" name="imagem" id="imagem" required style="width: 50%;" value="http://localhost/movilarte/fotos/">
+                <input class="estilo_botao" type="text" name="imagem" id="imagem" required style="width: 50%;" value="http://localhost/movilarte/fotos/quartos/">
                 <br>
 
 
@@ -53,7 +53,7 @@ if($form){
                 <!-- Imagem Secundaria 1 -->
                 <label for="especifica_1">Imagem Secundaria 1</label>
                 <br>
-                <input class="estilo_botao" type="text" name="especifica_1" id="especifica_1" required style="width: 50%;" value="http://localhost/movilarte/fotos/">
+                <input class="estilo_botao" type="text" name="especifica_1" id="especifica_1" required style="width: 50%;" value="http://localhost/movilarte/fotos/quartos/">
                 <br>
 
 
@@ -61,7 +61,7 @@ if($form){
                 <!-- Imagem Secundaria 2 -->
                 <label for="especifica_2">Imagem Secundaria 2</label>
                 <br>
-                <input class="estilo_botao" type="text" name="especifica_2" id="especifica_2" required style="width: 50%;" value="http://localhost/movilarte/fotos/">
+                <input class="estilo_botao" type="text" name="especifica_2" id="especifica_2" required style="width: 50%;" value="http://localhost/movilarte/fotos/quartos/">
                 <br>
 
 
@@ -71,7 +71,7 @@ if($form){
                 <!-- Imagem Secundaria 3 -->
                 <label for="especifica_3">Imagem Secundaria 3</label>
                 <br>
-                <input class="estilo_botao" type="text" name="especifica_3" id="especifica_3" required style="width: 50%;" value="http://localhost/movilarte/fotos/">
+                <input class="estilo_botao" type="text" name="especifica_3" id="especifica_3" required style="width: 50%;" value="http://localhost/movilarte/fotos/quartos/">
                 <br><br>
                 <a class="estilo_botao" target="_blank" href="<?= $url_base; ?>backoffice/tinyfilemanager/tinyfilemanager.php">
                     Gestor de Ficheiros
