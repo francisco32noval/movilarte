@@ -13,7 +13,7 @@ if($form){
         $imagem = $_GET["imagem"];
         $descricao = $_GET["descricao"];
 
-        iduSQL("UPDATE salas SET 
+        iduSQL("UPDATE sofas SET 
             imagem='$imagem',
             descricao='$descricao'
             WHERE id = '$id'

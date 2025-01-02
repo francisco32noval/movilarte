@@ -26,23 +26,23 @@ $sofas = getSofas()
                     </tr>
 
 
-                    <?php foreach($sofas as $s): ?>
+                    <?php foreach($sofas as $sf): ?>
 
                         <tr>
 
                             <td>
-                                <img class="w-50" src="<?= $s["imagem"]; ?>" alt="<?= $s["id"]; ?>">
+                                <img class="w-50" src="<?= $sf["imagem"]; ?>" alt="<?= $sf["id"]; ?>">
                             </td>
 
                             <td class="px-3">
-                                <?= $s["descricao"]; ?>
+                                <?= $sf["descricao"]; ?>
                             </td>
 
 
 
                             <td>
-                                <button class="my-4 estilo_botao"><a href="sofas_editar.php?id=<?= $s["id"]; ?>">Editar</a></button>
-                                <button onclick="remover(<?= $s['id']; ?>, 'sofas_apagar.php')" class="estilo_botao">Apagar</button>
+                                <button class="my-4 estilo_botao"><a href="sofas_editar.php?id=<?= $sf["id"]; ?>">Editar</a></button>
+                                <button onclick="remover(<?= $sf['id']; ?>, 'sofas_apagar.php')" class="estilo_botao">Apagar</button>
                                 <div id="modal" class="modal">  
                                     <div class="modal-content">
                                         <p>Tem certeza que deseja apagar este item?</p>
