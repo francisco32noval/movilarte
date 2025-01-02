@@ -48,7 +48,7 @@
                             <a class="nav-link" href="salas.php">Salas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sofás</a>
+                            <a class="nav-link" href="sofas.php">Sofás</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Decoração</a>

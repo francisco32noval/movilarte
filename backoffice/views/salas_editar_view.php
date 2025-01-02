@@ -70,7 +70,7 @@ if($form){
                 <!-- Imagem Secundaria 1 -->
                 <label for="especifica_1">Imagem Secundaria 1</label>
                 <br>
-                <input class="estilo_botao" type="text" name="especifica_1" id="especifica_1" required style="width: 50%;" value="<?= $salaE["imagem"]; ?>">
+                <input class="estilo_botao" type="text" name="especifica_1" id="especifica_1" required style="width: 50%;" value="<?= $salaE["especifica_1"]; ?>">
                 <br>
                 <img id="especifica_1" class="imgAEditar" src="<?= $salaE["especifica_1"]; ?>" alt="<?= $salaE["id"]; ?>">
                 <br>
@@ -80,7 +80,7 @@ if($form){
                 <!-- Imagem Secundaria 2 -->
                 <label for="especifica_2">Imagem Secundaria 2</label>
                 <br>
-                <input class="estilo_botao" type="text" name="especifica_2" id="especifica_2" required style="width: 50%;" value="<?= $salaE["imagem"]; ?>">
+                <input class="estilo_botao" type="text" name="especifica_2" id="especifica_2" required style="width: 50%;" value="<?= $salaE["especifica_2"]; ?>">
                 <br>
                 <img id="especifica_3" class="imgAEditar" src="<?= $salaE["especifica_2"]; ?>" alt="<?= $salaE["id"]; ?>">
                 <br>
@@ -92,7 +92,7 @@ if($form){
                 <!-- Imagem Secundaria 3 -->
                 <label for="especifica_3">Imagem Secundaria 3</label>
                 <br>
-                <input class="estilo_botao" type="text" name="especifica_3" id="especifica_3" required style="width: 50%;" value="<?= $salaE["imagem"]; ?>">
+                <input class="estilo_botao" type="text" name="especifica_3" id="especifica_3" required style="width: 50%;" value="<?= $salaE["especifica_3"]; ?>">
                 <br>
                 <img id="especifica_3" class="imgAEditar" src="<?= $salaE["especifica_3"]; ?>" alt="<?= $salaE["id"]; ?>">
                 <br>
