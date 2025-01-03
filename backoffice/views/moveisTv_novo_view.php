@@ -12,7 +12,7 @@ if($form){
         value ('$imagem', '$descricao')
     ");
 
-    header("Location: moveis_tv.php");
+    header("Location: moveisTv.php");
 }
 
 

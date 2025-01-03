@@ -19,7 +19,7 @@ if($form){
             WHERE id = '$id'
             ");
 
-        header("Location: moveis_tv.php");
+        header("Location: moveisTv.php");
     }
 
 
