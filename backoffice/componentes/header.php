@@ -51,16 +51,13 @@
                             <a class="nav-link" href="sofas.php">Sofás</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Decoração</a>
+                            <a class="nav-link" href="decoracao.php">Decoração</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Móveis de Tv</a>
+                            <a class="nav-link" href="moveisTv.php">Móveis de Tv</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Diversos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Decoração</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="quartos.php">Quartos</a>
